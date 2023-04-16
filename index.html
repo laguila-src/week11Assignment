@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Tic-Tac-Toe</title>
+  </head>
+
+  <!-- Each square on the board has a class=cell and an attribute=data-cell-->
+  <body>
+    <div>
+      <h1 class="heading-id" id="headingId">Tic Tac Toe</h1>
+    </div>
+    <div class="heading-info" id="headingInfo">
+      <div class="heading-info=text" id="headingInfoText"></div>
+    </div>
+    <div class="board" id="board">
+      <div class="cell" data-cell></div>
+      <div class="cell" data-cell></div>
+      <div class="cell" data-cell></div>
+      <div class="cell" data-cell></div>
+      <div class="cell" data-cell></div>
+      <div class="cell" data-cell></div>
+      <div class="cell" data-cell></div>
+      <div class="cell" data-cell></div>
+      <div class="cell" data-cell></div>
+    </div>
+    <div class="winning-message" id="winningMessage">
+      <div id="winningMessageText"></div>
+      <button id="restartButton">Restart</button>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
